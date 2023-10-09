@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+
+  background-color: rgb(216, 245, 235);
+}
+.h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+form {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.name-email {
+  display: flex;
+  gap: 2rem;
+}
+.name {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 4rem;
+  padding: 0 2%;
+  outline: none;
+}
+.subject {
+  width: 42rem;
+  height: 3rem;
+  border-radius: 6rem;
+  padding: 0 1%;
+  outline: none;
+}
+.message {
+  width: 42rem;
+  height: 8rem;
+  border-radius: 2rem;
+  padding: 0 1%;
+  padding-top: 1rem;
+  outline: none;
+}
+.form-btn {
+  width: 42rem;
+  height: 3rem;
+  border-radius: 6rem;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s ease;
+}
+.form-btn:hover {
+  background-color: white;
+  color: blue;
+  border: 0.1rem solid blue;
+}
