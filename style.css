@@ -8,13 +8,29 @@ body {
 
   background-color: rgb(216, 245, 235);
 }
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.3;
+}
 .h1 {
   font-size: 4rem;
   text-align: center;
   margin-top: 4rem;
 }
+.p {
+  text-align: center;
+  font-size: 1.3rem;
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 form {
-  margin-top: 8rem;
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
